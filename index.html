@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <img src="ping.jpg" alt="Photo of two ping pong paddles below a ping pong ball.">
+        <div id="bottom-half">
+            <h1>Ping Pong Score Keeper</h1>
+            <div id="game-section">
+                <p><Span id="player1Score">0</Span>to<Span id="player2Score">0</Span></p>
+                <p>Use the button below to keep score.</p>
+                <label for="game">Playing To</label>
+                <select name="game" id="game">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div id="footer-container">
+                <button id="btn-1" class="btn-style deactivate">+1 Player One</button>
+                <button id="btn-2" class="btn-style deactivate">+1 Player Two</button>
+                <button id="btn-3" class="btn-style">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
